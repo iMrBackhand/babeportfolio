@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marketing Professional | Portfolio</title>
+    <!-- FontAwesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Floating Elements -->
+    <div class="theme-toggle" id="theme-btn">
+      <i class="fas fa-moon"></i>
+    </div>
+    <div class="back-to-top" id="btt-btn">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+      <div class="nav-container">
+        <a href="#home" class="logo">Annie<span> Paje</span>.</a>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="scroll-progress">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+      <div class="hero-content reveal">
+        <h1>
+          Helping Brands Grow Through <br /><span class="typing-text"
+            >Smart Digital Marketing</span
+          ><span class="cursor">|</span>
+        </h1>
+        <p>
+          Data-driven strategies, creative campaigns, and measurable results. I
+          scale businesses to their full potential.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3 class="counter" data-target="150">0</h3>
+            <span>+</span>
+            <p>Happy Clients</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="counter" data-target="98">0</h3>
+            <span>%</span>
+            <p>Success Rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image reveal delay-1">
+        <!-- Glassmorphism decorative shapes in background -->
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <img src="image/pic.png" alt="Marketing Agent" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding bg-alt">
+      <div class="about-image reveal">
+        <img
+          src="https://placehold.co/400x500/808080/FFFFFF?text=Professional+Portrait"
+          alt="About Me"
+        />
+      </div>
+      <div class="about-content reveal delay-1">
+        <div class="section-heading">
+          <h2>About <span>Me</span></h2>
+          <p>Digital Marketing Specialist with 5+ years of experience</p>
+        </div>
+        <p>
+          I specialize in transforming brands through data-driven digital
+          strategies. My approach combines creative branding with hard analytics
+          to ensure every marketing dollar brings a tangible ROI.
+        </p>
+
+        <div class="skills">
+          <div class="skill">
+            <span>Paid Advertising (Meta/Google)</span>
+            <div class="progress-wrap">
+              <div class="progress" data-width="95%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>SEO & Content Strategy</span>
+            <div class="progress-wrap">
+              <div class="progress" data-width="85%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Analytics & Reporting</span>
+            <div class="progress-wrap">
+              <div class="progress" data-width="90%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tools-icons">
+          <i class="fab fa-google"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fas fa-chart-line"></i>
+          <i class="fas fa-envelope-open-text"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+      <div class="section-heading center reveal">
+        <h2>My <span>Services</span></h2>
+        <p>Comprehensive digital marketing solutions for modern businesses</p>
+      </div>
+      <div class="grid-3 reveal delay-1">
+        <div class="service-card glass">
+          <i class="fas fa-share-alt"></i>
+          <h3>Social Media Marketing</h3>
+          <p>
+            Engaging content strategies and community management across all
+            major social platforms.
+          </p>
+        </div>
+        <div class="service-card glass">
+          <i class="fas fa-bullhorn"></i>
+          <h3>Paid Ads Management</h3>
+          <p>
+            High-converting Facebook, Instagram, and Google Ads campaigns
+            optimized for ROI.
+          </p>
+        </div>
+        <div class="service-card glass">
+          <i class="fas fa-search"></i>
+          <h3>SEO Optimization</h3>
+          <p>
+            On-page and off-page SEO to rank your business higher on search
+            engines and drive organic traffic.
+          </p>
+        </div>
+        <div class="service-card glass">
+          <i class="fas fa-copyright"></i>
+          <h3>Branding Strategy</h3>
+          <p>
+            Building strong, memorable brand identities that resonate with your
+            target audience.
+          </p>
+        </div>
+        <div class="service-card glass">
+          <i class="fas fa-envelope"></i>
+          <h3>Email Marketing</h3>
+          <p>
+            Automated funnels and weekly newsletters to nurture leads into loyal
+            customers.
+          </p>
+        </div>
+        <div class="service-card glass">
+          <i class="fas fa-chart-pie"></i>
+          <h3>Analytics & Reporting</h3>
+          <p>
+            In-depth data tracking and reporting to make informed scaling
+            decisions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding bg-alt">
+      <div class="section-heading center reveal">
+        <h2>Featured <span>Work</span></h2>
+        <p>Case studies and successful campaigns</p>
+      </div>
+      <div class="filter-btns reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="seo">SEO</button>
+        <button class="filter-btn" data-filter="ads">Ads</button>
+      </div>
+      <div class="portfolio-grid reveal delay-1">
+        <!-- Item 1 -->
+        <div class="portfolio-item" data-category="ads">
+          <img
+            src="https://placehold.co/400x300/44C8AA/FFF?text=E-commerce+Ads"
+            alt="Project 1"
+          />
+          <div class="portfolio-info">
+            <h3>E-commerce Ads Scale</h3>
+            <p>Generated 300% ROAS in 30 days.</p>
+            <button class="btn-small open-modal">View Details</button>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="portfolio-item" data-category="seo">
+          <img
+            src="https://placehold.co/400x300/000000/FFF?text=SaaS+SEO"
+            alt="Project 2"
+          />
+          <div class="portfolio-info">
+            <h3>SaaS Organic Growth</h3>
+            <p>Increased organic traffic by 150%.</p>
+            <button class="btn-small open-modal">View Details</button>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="portfolio-item" data-category="branding">
+          <img
+            src="https://placehold.co/400x300/808080/FFF?text=Startup+Brand"
+            alt="Project 3"
+          />
+          <div class="portfolio-info">
+            <h3>Startup Rebrand</h3>
+            <p>Complete visual and tone overhaul.</p>
+            <button class="btn-small open-modal">View Details</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section-padding">
+      <div class="section-heading center reveal">
+        <h2>Client <span>Testimonials</span></h2>
+        <p>What they say about my work</p>
+      </div>
+      <div class="testimonial-slider reveal delay-1">
+        <div class="slide active">
+          <p class="review">
+            "Absolutely transformed our online presence. Our lead volume doubled
+            in just two months!"
+          </p>
+          <div class="client-info">
+            <img
+              src="https://placehold.co/60x60/44C8AA/FFF?text=J"
+              alt="Client"
+            />
+            <div>
+              <h4>John Doe</h4>
+              <span>CEO, TechStartup</span>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <p class="review">
+            "Highly professional and truly understands data. The ROAS on our
+            Meta campaigns went from 1.5 to 4.0."
+          </p>
+          <div class="client-info">
+            <img
+              src="https://placehold.co/60x60/808080/FFF?text=S"
+              alt="Client"
+            />
+            <div>
+              <h4>Sarah Smith</h4>
+              <span>CMO, E-comBrand</span>
+            </div>
+          </div>
+        </div>
+        <!-- Slider Controls -->
+        <div class="slider-dots">
+          <span class="dot active" data-slide="0"></span>
+          <span class="dot" data-slide="1"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section-padding bg-alt">
+      <div class="grid-4 reveal">
+        <div class="stat-box">
+          <i class="fas fa-users"></i>
+          <h3 class="counter" data-target="250">0</h3>
+          <p>Clients Served</p>
+        </div>
+        <div class="stat-box">
+          <i class="fas fa-rocket"></i>
+          <h3 class="counter" data-target="420">0</h3>
+          <p>Campaigns Completed</p>
+        </div>
+        <div class="stat-box">
+          <i class="fas fa-magnet"></i>
+          <h3 class="counter" data-target="15000">0</h3>
+          <p>Leads Generated</p>
+        </div>
+        <div class="stat-box">
+          <i class="fas fa-chart-line"></i>
+          <h3 class="counter" data-target="350">0</h3>
+          <span>%</span>
+          <p>Avg. ROI Increase</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section-padding">
+      <div class="section-heading center reveal">
+        <h2>Pricing <span>Plans</span></h2>
+        <p>Transparent packages for every business stage</p>
+      </div>
+      <div class="grid-3 reveal delay-1">
+        <div class="price-card">
+          <h3>Starter</h3>
+          <div class="price"><span>$</span>999<span>/mo</span></div>
+          <ul>
+            <li><i class="fas fa-check"></i> Social Media Management</li>
+            <li><i class="fas fa-check"></i> Basic SEO Optimization</li>
+            <li><i class="fas fa-check"></i> Monthly Analytics Report</li>
+            <li><i class="fas fa-times text-light"></i> Paid Ads Management</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Choose Starter</a>
+        </div>
+        <div class="price-card popular glass">
+          <div class="badge">Most Popular</div>
+          <h3>Professional</h3>
+          <div class="price"><span>$</span>1,999<span>/mo</span></div>
+          <ul>
+            <li><i class="fas fa-check"></i> Advanced Social Media</li>
+            <li><i class="fas fa-check"></i> Comprehensive SEO</li>
+            <li><i class="fas fa-check"></i> Paid Ads (Meta/Google)</li>
+            <li><i class="fas fa-check"></i> Bi-weekly Strategy Calls</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Choose Pro</a>
+        </div>
+        <div class="price-card">
+          <h3>Enterprise</h3>
+          <div class="price"><span>$</span>3,499<span>/mo</span></div>
+          <ul>
+            <li><i class="fas fa-check"></i> Full-Service Marketing Dept</li>
+            <li><i class="fas fa-check"></i> Omni-channel Ads</li>
+            <li><i class="fas fa-check"></i> Advanced Content Strategy</li>
+            <li><i class="fas fa-check"></i> Weekly Reporting & Calls</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Choose Enterprise</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding bg-alt">
+      <div class="section-heading center reveal">
+        <h2>Get In <span>Touch</span></h2>
+        <p>Let's discuss how we can grow your brand</p>
+      </div>
+      <div class="contact-container reveal delay-1">
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>hello@market-tech.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+1 (555) 123-4567</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>New York, NY - Remote Worldwide</p>
+            </div>
+          </div>
+        </div>
+        <form id="contact-form" class="contact-form glass">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <select id="service" required>
+              <option value="" disabled selected>Select a Service</option>
+              <option value="ads">Paid Ads</option>
+              <option value="seo">SEO</option>
+              <option value="smm">Social Media</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Marke<span>Tech</span>.</h2>
+          <p>Driving digital growth for ambitious brands worldwide.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Subscribe</h3>
+          <p>Get weekly marketing tips delivered to your inbox.</p>
+          <form
+            class="newsletter-form"
+            onsubmit="
+              event.preventDefault();
+              alert('Subscribed!');
+            "
+          >
+            <input type="email" placeholder="Email Address" required />
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 MarkeTech Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Modal for Portfolio -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content glass">
+        <span class="close-modal">&times;</span>
+        <h2 id="modal-title">Project Title</h2>
+        <img
+          src=""
+          id="modal-img"
+          alt="Project Image"
+          style="width: 100%; border-radius: 8px; margin: 15px 0"
+        />
+        <p id="modal-desc">
+          Detailed description of the project, strategy used, and results
+          generated.
+        </p>
+        <ul style="margin-top: 15px; padding-left: 20px">
+          <li><strong>Role:</strong> Strategy & Execution</li>
+          <li><strong>Platform:</strong> Multi-channel</li>
+          <li><strong>Outcome:</strong> Massive ROI</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
