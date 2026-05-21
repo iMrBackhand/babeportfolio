@@ -462,7 +462,14 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2023 MarkeTech Portfolio. All rights reserved.</p>
+        <p>
+          &copy; <span id="year"></span> Annie Portfolio. All rights reserved.
+        </p>
+
+        <script>
+          document.getElementById('year').textContent =
+            new Date().getFullYear();
+        </script>
       </div>
     </footer>
 
