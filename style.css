@@ -12,6 +12,26 @@
     --glass-bg: rgba(255, 255, 255, 0.7);
     --glass-border: rgba(250, 103, 129, 0.15);
 }
+body.dark-mode {
+    --primary: #FA6781;
+    --primary-dark: #ff8da1;
+
+    --bg: #121212;
+    --bg-alt: #1d1d1d;
+
+    --text: #ffffff;
+    --text-light: #bdbdbd;
+
+    --card-bg: #1f1f1f;
+
+    --border: rgba(255, 255, 255, 0.08);
+
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+    --glass-bg: rgba(30, 30, 30, 0.7);
+
+    --glass-border: rgba(255, 255, 255, 0.05);
+}
 
 * {
     margin: 0;
